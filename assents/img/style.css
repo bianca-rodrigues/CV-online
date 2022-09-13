@@ -69,6 +69,12 @@
     text-align: justify;
 }
 
+.material-icons
+{
+  color: rgb(74, 83, 91);
+  margin-left: -12px;
+}
+
 .lado-direito
 {
     display: flex;
