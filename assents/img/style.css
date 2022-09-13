@@ -32,7 +32,7 @@
 .nome
 {
     font-size: 40px;
-    height: 150px;
+    height: 130px;
     text-align: center;
 }
 
@@ -46,13 +46,37 @@
 .font ul li
 {
     list-style: none;
-    margin-top: 20px;
-    
+    margin-bottom: 25px;
 }
 
-.sobre
+.titulo .sobre
+{
+    margin-top: 10px;
+}
+
+.sobre p
 {
     text-align: justify;
-    margin-top: 15px;
 }
 
+.cv .lado-direito
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 530px;
+    background: rgb(103, 103, 182);
+    padding: 15px;
+}
+
+.margin
+{
+    margin-left: 30px;
+    padding: 10px;
+}
+.data
+{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
