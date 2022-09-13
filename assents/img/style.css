@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 .font
 {
@@ -9,31 +11,39 @@
     width: 800px;
     height: auto;
     margin: 50px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
 
-.cv .lado-esquerdo
+.lado-esquerdo
 {
     display: flex;
     flex-wrap: wrap;
-    max-width: 270px;
-    background: rgb(142, 142, 219);
+    max-width: 250px;
+    background: rgb(158, 216, 241);
     justify-content: center;
     padding: 15px;
+    border: 0.5px solid black;
 }
 
 .lado-esquerdo .foto
 {
     width: 150px;
     border-radius: 100%;
-    border: 1px solid black;
+    border: 0.5px solid black;
     
 }
 
 .nome
 {
-    font-size: 40px;
+    font-size: 30px;
     height: 130px;
     text-align: center;
+}
+
+.infos ul
+{
+    margin-left: -20px;
 }
 
 .titulo
@@ -43,7 +53,7 @@
     color:black;
 }
 
-.font ul li
+.cv ul li
 {
     list-style: none;
     margin-bottom: 25px;
@@ -64,35 +74,55 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 530px;
-    background: rgb(103, 103, 182);
+    width: 550px;
+    background: rgb(246, 246, 250);
     padding: 15px;
+    border: 0.5px solid black;
+}
+
+.lado-direito ul
+{
+   margin-left: -20px;
+   margin-top: 20px;
 }
 
 .margin
 {
-    margin-left: 30px;
+    margin-left: 10px;
     padding: 10px;
 }
-.data
-{
-    font-size: 25px;
-    padding: 10px;
-    margin-top: 20px;
-}
+
 .xp
 {
-    margin-top: 5px;
+    margin-top: 50px;
 
 }
 
 .cursos
 {
-    margin-top: 100px;
+    margin-top: 55px;
 
 }
 
 .formacao
 {
     margin-top: 100px;
+}
+
+.font-sub
+{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+.margin-conainer
+{
+    margin-left: 20px;
 }
