@@ -5,6 +5,12 @@
 {
     font-size: 20px;
 }
+
+.color
+{
+    color: rgb(61, 60, 60);
+}
+
 .cv
 {
     display: flex;
@@ -28,9 +34,9 @@
 
 .foto
 {
-    width: 200px;
+    width: 150px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 20%;
     border: 0.5px solid black;
     
 }
@@ -40,6 +46,7 @@
     font-size: 30px;
     height: 130px;
     text-align: center;
+    margin-top: -80px;
 }
 
 .infos ul
@@ -60,9 +67,10 @@
     margin-bottom: 25px;
 }
 
-.titulo .sobre
+.sobre
 {
     margin-top: 10px;
+    margin-top: -80px;
 }
 
 .sobre p
@@ -72,7 +80,7 @@
 
 .material-icons
 {
-  color: rgb(74, 83, 91);
+  color: black;
   margin-left: -12px;
 }
 
@@ -80,21 +88,35 @@
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .tel
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.git
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.git-icon
+{
+    height: 25px;
+    margin-left: -12px;
+}
+
+a
+{
+    text-decoration: none;
 }
 
 .endereco
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 
@@ -124,19 +146,19 @@
 
 .xp
 {
-    margin-top: 50px;
+    margin-top: 20px;
 
 }
 
 .cursos
 {
-    margin-top: 55px;
+    margin-top: 40px;
 
 }
 
 .formacao
 {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .font-sub
@@ -154,7 +176,7 @@
 }
 .margin-conainer
 {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .icon
@@ -195,4 +217,12 @@
     flex-direction: column;
     align-items:flex-end;
     justify-content:flex-start;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:bisque;
 }
